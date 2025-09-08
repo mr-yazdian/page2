@@ -1,7 +1,18 @@
 :root {
   --pcolor: #58595d;
-}
+  --english: grafiti;
+  --green: #009387;
+  --xl: x-large;
+  --l: large;
+  --sm: small;
+  --xsm: x-small;
+  --xxsm: xX-small;
 
+}
+@font-face {
+  font-family: grafiti;
+  src: url(./aset/font/CoveredByYourGrace.woff);
+}
 * {
   margin: 0;
   padding: 0;
@@ -79,7 +90,7 @@ main {
   > img.header-img {
     width: 100%;
   }
-  >div.titel {
+  > div.titel {
     width: 100%;
     margin-top: 10%;
     > img.org-titel-img {
@@ -116,7 +127,7 @@ main {
       }
     }
   }
-  >div.work {
+  > div.work {
     width: 100%;
     background-color: #f3fafa;
     > img {
@@ -169,7 +180,7 @@ main {
       }
     }
   }
-  >div.cinch {
+  > div.cinch {
     width: 100%;
     background-color: #fdf3ea;
     > div.top {
@@ -270,19 +281,25 @@ main {
       }
     }
   }
-  >div.your-brand{
-  width: 100%;
-  margin-top: 7%;
-  >div.parag{
-    width: 90%;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin:  auto;
-    >h1{
-      font-size: 60px;
-      font-weight: bold;
+  > div.your-brand {
+    width: 100%;
+    margin-top: 7%;
+    > div.parag {
+      width: 90%;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      margin: auto;
+      flex-direction: column;
+      > h1 {
+        font-size: 60px;
+        font-weight: bold;
+      }
+      > h1.grafity {
+        font-size: 45px;
+        font-family: var(--english);
+        color: var(--green);
+      }
     }
-  }
   }
 }

@@ -1,7 +1,18 @@
 :root {
   --pcolor: #58595d;
+  --english: grafiti;
+  --green: #009387;
+  --xl: x-large;
+  --l: large;
+  --sm: small;
+  --xsm: x-small;
+  --xxsm: xX-small;
 }
 
+@font-face {
+  font-family: grafiti;
+  src: url(./aset/font/CoveredByYourGrace.woff);
+}
 * {
   margin: 0;
   padding: 0;
@@ -274,8 +285,14 @@ main > div.your-brand > div.parag {
   justify-content: center;
   text-align: center;
   margin: auto;
+  flex-direction: column;
 }
 main > div.your-brand > div.parag > h1 {
   font-size: 60px;
   font-weight: bold;
+}
+main > div.your-brand > div.parag > h1.grafity {
+  font-size: 45px;
+  font-family: var(--english);
+  color: var(--green);
 }/*# sourceMappingURL=stayl.css.map */
