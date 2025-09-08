@@ -1,0 +1,236 @@
+:root{
+    --pcolor:#58595d;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  position: relative;
+  > nav {
+    background-color: #e0f8f2;
+    height: 70px;
+    width: 100%;
+    > div.navbar {
+      background-color: white;
+      height: 80%;
+      width: inherit;
+      display: flex;
+      position: absolute;
+      top: 5%;
+      > svg {
+        position: absolute;
+        top: 42%;
+      }
+      > li.Company {
+        margin-top: 2%;
+        position: absolute;
+        right: 30%;
+        list-style-type: none;
+      }
+      > li {
+        margin-top: 2%;
+        position: absolute;
+        right: 50%;
+        list-style-type: none;
+      }
+      > span {
+        margin-top: 2%;
+        position: absolute;
+        right: 40%;
+      }
+      > span.Pricing {
+        margin-top: 2%;
+        position: absolute;
+        right: 24%;
+      }
+      a.login {
+        margin-top: 2%;
+        text-decoration: none;
+        position: absolute;
+        right: 16%;
+        padding: 0.2%;
+        padding-left: 1%;
+        padding-right: 1%;
+        border-radius: 10px;
+        border: solid black 2px;
+        box-shadow: 2px 2px 5px black;
+        color: black;
+      }
+      a.account {
+        margin-top: 2%;
+        text-decoration: none;
+        position: absolute;
+        right: 3%;
+        padding: 0.2%;
+        padding-left: 1%;
+        padding-right: 1%;
+        border-radius: 10px;
+        border: solid black 2px;
+        box-shadow: 2px 2px 5px black;
+        color: white;
+        background-color: #ff6d2c;
+      }
+    }
+  }
+}
+main {
+  > img.header-img {
+    width: 100%;
+  }
+  div.titel {
+    width: 100%;
+    margin-top: 10%;
+    > img.org-titel-img {
+      margin-left: 26%;
+    }
+    > div.titel-card {
+      display: flex;
+      justify-content: center;
+      width: 90%;
+
+      margin: 5% auto;
+      > div.card {
+        width: 20%;
+        margin-left: 5%;
+        display: flex;
+        flex-direction: column;
+        border: none;
+        > img.titel-card-p-img1 {
+          width: 60%;
+          margin: 7% auto;
+        }
+        > img.titel-card-p-img2 {
+          width: 80%;
+          margin: 7% auto;
+        }
+        > img.titel-card-p-img3 {
+          width: 55%;
+          margin: 7% auto;
+        }
+        > img.titel-card-p-img4 {
+          width: 20%;
+          margin: 6% auto;
+        }
+      }
+    }
+  }
+  div.work {
+    width: 100%;
+    background-color: #f3fafa;
+    > img {
+      margin-top: 8%;
+      margin-left: 26%;
+    }
+    > div.work-text {
+      display: flex;
+      justify-content: space-evenly;
+
+      > div.left {
+        display: flex;
+        flex-direction: column;
+        width: 18%;
+        margin-top: 9%;
+        margin-bottom: 6%;
+        > h1 {
+          font-weight: bold;
+          text-align: center;
+        }
+        > p {
+          color: #58595d;
+          text-align: center;
+        }
+      }
+      div.center {
+        margin-top: 4%;
+        margin-bottom: 6%;
+        > p {
+          color: #58595d;
+          text-align: center;
+          font-size: smaller;
+        }
+      }
+      div.right {
+        display: flex;
+        flex-direction: column;
+        width: 18%;
+        margin-top: 9%;
+        margin-bottom: 6%;
+        > h1 {
+          font-weight: bold;
+          text-align: center;
+          font-size: 46px;
+        }
+        > p {
+          color: #58595d;
+          text-align: center;
+        }
+      }
+    }
+  }
+  div.cinch {
+    width: 100%;
+    background-color: #fdf3ea;
+    > div.top {
+      width: inherit;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      > img {
+        width: 50%;
+        margin-top: 6%;
+      }
+    }
+    div.cinch-pawerFull {
+      width: 90%;
+ 
+      margin: 10% auto;
+      display: flex;
+      justify-content: left;
+      > div.pawerfull {
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    
+        >img{
+            width: 50%;
+        }
+        >p{
+            width: 90%;
+            margin: 7% 0;
+            color:var(--pcolor);
+        }
+        >img.img-down{
+            width: 100%;
+        }
+      }
+    }
+     div.cinch-fightBack {
+      width: 95%;
+      margin: 10% auto;
+      display: flex;
+      justify-content: right;
+      > div.fightBack {
+        width: 35%;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    
+        >img{
+            width: 88%;
+        }
+        >p{
+            width: 90%;
+            margin: 7% 0;
+            color:var(--pcolor);
+        }
+        >img.img-down{
+            width: 100%;
+        }
+      }
+    }
+  }
+}
