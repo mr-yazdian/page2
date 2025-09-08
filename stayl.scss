@@ -7,7 +7,6 @@
   --sm: small;
   --xsm: x-small;
   --xxsm: xX-small;
-
 }
 @font-face {
   font-family: grafiti;
@@ -301,6 +300,100 @@ main {
         color: var(--green);
       }
     }
-    
+    > div.cardContiner {
+      width: 100%;
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      > div.card {
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        border: none;
+        background-color: #fdf3ea;
+        border-radius: 15px;
+        gap: 5%;
+        margin-top: 2%;
+        > img {
+          width: 80%;
+          margin-top: 5%;
+        }
+        > h2 {
+          margin-top: 2%;
+          width: 75%;
+          font-weight: bold;
+        }
+        > p {
+          margin-top: 2%;
+          color: var(--pcolor);
+          font-size: var(--sm);
+          width: 70%;
+        }
+      }
+      div.card-2 {
+        background-color: #e0f8f2;
+        > img {
+          width: 60%;
+          margin-top: 12%;
+          margin-bottom: 5%;
+        }
+      }
+      div.card-3 {
+        background-color: #eeecff;
+        > img {
+          width: 60%;
+          margin-top: 10%;
+        }
+        > h2 {
+          margin-top: 0% !important;
+          margin-bottom: 0% !important;
+        }
+        > p {
+          margin-top: 0% !important;
+          margin-bottom: 0% !important;
+        }
+      }
+      div.card-4 {
+        background-color: #d9f2f7;
+        > img {
+          width: 60%;
+          margin-top: 10%;
+        }
+        > h2 {
+          margin-top: 4% !important;
+          margin-bottom: 0% !important;
+        }
+        > p {
+          margin-top: 4% !important;
+          margin-bottom: 0% !important;
+        }
+      }
+      div.card-5 {
+        background-color: #faeded;
+        > img {
+          width: 55%;
+          margin-top: 10%;
+         
+        }
+        > h2 {
+          margin-top: 3% !important;
+          margin-bottom: 0% !important;
+        }
+        > p {
+          margin-top: 3% !important;
+          margin-bottom: 0% !important;
+        }
+      }
+      div.card-6 {
+        background-color: #f1f1f1;
+        > img {
+          width: 60%;
+          margin-top: 15%;
+          margin-bottom: 5%;
+        }
+      }
+    }
   }
 }

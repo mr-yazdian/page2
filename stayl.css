@@ -295,4 +295,98 @@ main > div.your-brand > div.parag > h1.grafity {
   font-size: 45px;
   font-family: var(--english);
   color: var(--green);
+}
+main > div.your-brand > div.cardContiner {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+main > div.your-brand > div.cardContiner > div.card {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: none;
+  background-color: #fdf3ea;
+  border-radius: 15px;
+  gap: 5%;
+  margin-top: 2%;
+}
+main > div.your-brand > div.cardContiner > div.card > img {
+  width: 80%;
+  margin-top: 5%;
+}
+main > div.your-brand > div.cardContiner > div.card > h2 {
+  margin-top: 2%;
+  width: 75%;
+  font-weight: bold;
+}
+main > div.your-brand > div.cardContiner > div.card > p {
+  margin-top: 2%;
+  color: var(--pcolor);
+  font-size: var(--sm);
+  width: 70%;
+}
+main > div.your-brand > div.cardContiner div.card-2 {
+  background-color: #e0f8f2;
+}
+main > div.your-brand > div.cardContiner div.card-2 > img {
+  width: 60%;
+  margin-top: 12%;
+  margin-bottom: 5%;
+}
+main > div.your-brand > div.cardContiner div.card-3 {
+  background-color: #eeecff;
+}
+main > div.your-brand > div.cardContiner div.card-3 > img {
+  width: 60%;
+  margin-top: 10%;
+}
+main > div.your-brand > div.cardContiner div.card-3 > h2 {
+  margin-top: 0% !important;
+  margin-bottom: 0% !important;
+}
+main > div.your-brand > div.cardContiner div.card-3 > p {
+  margin-top: 0% !important;
+  margin-bottom: 0% !important;
+}
+main > div.your-brand > div.cardContiner div.card-4 {
+  background-color: #d9f2f7;
+}
+main > div.your-brand > div.cardContiner div.card-4 > img {
+  width: 60%;
+  margin-top: 10%;
+}
+main > div.your-brand > div.cardContiner div.card-4 > h2 {
+  margin-top: 4% !important;
+  margin-bottom: 0% !important;
+}
+main > div.your-brand > div.cardContiner div.card-4 > p {
+  margin-top: 4% !important;
+  margin-bottom: 0% !important;
+}
+main > div.your-brand > div.cardContiner div.card-5 {
+  background-color: #faeded;
+}
+main > div.your-brand > div.cardContiner div.card-5 > img {
+  width: 55%;
+  margin-top: 10%;
+}
+main > div.your-brand > div.cardContiner div.card-5 > h2 {
+  margin-top: 3% !important;
+  margin-bottom: 0% !important;
+}
+main > div.your-brand > div.cardContiner div.card-5 > p {
+  margin-top: 3% !important;
+  margin-bottom: 0% !important;
+}
+main > div.your-brand > div.cardContiner div.card-6 {
+  background-color: #f1f1f1;
+}
+main > div.your-brand > div.cardContiner div.card-6 > img {
+  width: 60%;
+  margin-top: 15%;
+  margin-bottom: 5%;
 }/*# sourceMappingURL=stayl.css.map */
