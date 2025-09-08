@@ -1,5 +1,5 @@
 :root {
-  --pcolor:#58595d;
+  --pcolor: #58595d;
 }
 
 * {
@@ -227,4 +227,40 @@ main div.cinch div.cinch-fightBack > div.fightBack > p {
 }
 main div.cinch div.cinch-fightBack > div.fightBack > img.img-down {
   width: 100%;
+}
+main div.cinch div.cinch-you {
+  width: 95%;
+  margin: 10% auto;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: left;
+}
+main div.cinch div.cinch-you > div.you {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+main div.cinch div.cinch-you > div.you > img {
+  width: 55%;
+}
+main div.cinch div.cinch-you > div.you > p {
+  width: 90%;
+  margin: 7% 0;
+  color: var(--pcolor);
+}
+main div.cinch div.cinch-you > div.you > img.img-down {
+  width: 100%;
+}
+main div.cinch div.cinch-you > div.you > button.risk {
+  border: solid 2px black;
+  border-radius: 15px;
+  width: 50%;
+  background-color: #ff6d2c;
+  box-sizing: border-box;
+  box-shadow: 2.5px 2.5px 0px black;
+  color: white;
+  font-size: 15px;
+  margin-top: 10%;
+  margin-bottom: 20%;
 }/*# sourceMappingURL=stayl.css.map */
