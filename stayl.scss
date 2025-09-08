@@ -79,7 +79,7 @@ main {
   > img.header-img {
     width: 100%;
   }
-  div.titel {
+  >div.titel {
     width: 100%;
     margin-top: 10%;
     > img.org-titel-img {
@@ -116,7 +116,7 @@ main {
       }
     }
   }
-  div.work {
+  >div.work {
     width: 100%;
     background-color: #f3fafa;
     > img {
@@ -169,7 +169,7 @@ main {
       }
     }
   }
-  div.cinch {
+  >div.cinch {
     width: 100%;
     background-color: #fdf3ea;
     > div.top {
@@ -269,5 +269,20 @@ main {
         }
       }
     }
+  }
+  >div.your-brand{
+  width: 100%;
+  margin-top: 7%;
+  >div.parag{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin:  auto;
+    >h1{
+      font-size: 60px;
+      font-weight: bold;
+    }
+  }
   }
 }
