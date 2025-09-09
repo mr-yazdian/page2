@@ -445,11 +445,12 @@ main div.lanech > div.body > div.Segment > span {
   margin-top: 4%;
   margin-left: 5%;
   color: var(--pcolor);
+  cursor: pointer;
 }
 main div.lanech > div.body > div.Segment > p {
-  width: 60%;
-  font-size: var(--sm);
+  width: 80%;
   margin-left: 5%;
+  font-weight: 600;
 }
 main div.lanech > div.body > div.Segment .blcak-bold {
   color: black;
