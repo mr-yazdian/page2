@@ -6,4 +6,10 @@ spans.forEach(span => {
   });
 });
 
+let slots = document.querySelectorAll("div.slot-meno");
 
+slots.forEach(slot => {
+  slot.addEventListener("click", () => {
+    slot.classList.toggle("border-g");
+  });
+});

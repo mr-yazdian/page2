@@ -539,22 +539,116 @@ main {
         }
       }
     }
-    div.btn{
+    div.btn {
       width: 100%;
-    > button.risk {
-      border: solid 2px black;
-      border-radius: 15px;
-      width: 15%;
-      margin: 0 auto;
-      background-color: #ff6d2c;
-      box-sizing: border-box;
-      box-shadow: 2.5px 2.5px 0px black;
-      color: white;
-      font-size: 15px;
-      margin-top: 10%;
-      margin-bottom: 20%;
+      > button.risk {
+        border: solid 2px black;
+        border-radius: 15px;
+        width: 15%;
+        margin: 0 auto;
+        background-color: #ff6d2c;
+        box-sizing: border-box;
+        box-shadow: 2.5px 2.5px 0px black;
+        color: white;
+        font-size: 15px;
+        margin-top: 10%;
+      }
     }
+  }
+  div.obvi {
+    width: 100%;
+    background-color: #eeecff;
+    display: flex;
+    margin-top: 5%;
+    > img.obvi {
+      width: 40%;
+      margin-top: 5%;
+      margin-left: 5%;
+      margin-bottom: 5%;
     }
-
+    div.parag {
+      width: 45%;
+      margin-top: 6%;
+      margin-left: 8%;
+      > h1 {
+        width: 80%;
+        font-weight: bold;
+        font-size: var(--50px);
+        > span {
+          color: var(--green);
+          font-family: var(--english);
+        }
+      }
+      > p {
+        margin: 5% 0;
+        width: 70%;
+      }
+      div.percentage {
+        width: var(--full);
+        display: flex;
+        justify-content: space-between;
+        div.slot {
+          display: flex;
+          flex-direction: column;
+          text-align: left;
+          > h2 {
+            font-weight: bold;
+          }
+        }
+      }
+      div.btn {
+        width: 100%;
+        display: flex;
+        justify-content: left;
+        > button.risk {
+          border: solid 2px black;
+          border-radius: 15px;
+          width: 40%;
+          background-color: white;
+          box-sizing: border-box;
+          box-shadow: 2.5px 2.5px 0px black;
+          color: black;
+          font-size: 15px;
+          margin-top: 10%;
+        }
+      }
+      div.meno {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 8%;
+        > div.slot1 {
+          width: 11%;
+          > img {
+            margin-bottom: 10%;
+               cursor: pointer;
+          }
+        }
+        > div.slot2 {
+          width: 24%;
+          > img {
+            margin-bottom: 10%;
+               cursor: pointer;
+          }
+        }
+        > div.slot3 {
+          width: 13%;
+          > img {
+            margin-bottom: 10%;
+               cursor: pointer;
+          }
+        }
+        > div.slot4 {
+          width: 27%;
+          > img {
+            margin-bottom: 10%;
+            cursor: pointer;
+          }
+        }
+        .border-g{
+          border-bottom: solid 3px var(--green);
+        }
+      }
+    }
   }
 }

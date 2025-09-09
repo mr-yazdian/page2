@@ -542,5 +542,100 @@ main > div.DTC div.btn > button.risk {
   color: white;
   font-size: 15px;
   margin-top: 10%;
-  margin-bottom: 20%;
+}
+main div.obvi {
+  width: 100%;
+  background-color: #eeecff;
+  display: flex;
+  margin-top: 5%;
+}
+main div.obvi > img.obvi {
+  width: 40%;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+main div.obvi div.parag {
+  width: 45%;
+  margin-top: 6%;
+  margin-left: 8%;
+}
+main div.obvi div.parag > h1 {
+  width: 80%;
+  font-weight: bold;
+  font-size: var(--50px);
+}
+main div.obvi div.parag > h1 > span {
+  color: var(--green);
+  font-family: var(--english);
+}
+main div.obvi div.parag > p {
+  margin: 5% 0;
+  width: 70%;
+}
+main div.obvi div.parag div.percentage {
+  width: var(--full);
+  display: flex;
+  justify-content: space-between;
+}
+main div.obvi div.parag div.percentage div.slot {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+main div.obvi div.parag div.percentage div.slot > h2 {
+  font-weight: bold;
+}
+main div.obvi div.parag div.btn {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+}
+main div.obvi div.parag div.btn > button.risk {
+  border: solid 2px black;
+  border-radius: 15px;
+  width: 40%;
+  background-color: white;
+  box-sizing: border-box;
+  box-shadow: 2.5px 2.5px 0px black;
+  color: black;
+  font-size: 15px;
+  margin-top: 10%;
+}
+main div.obvi div.parag div.meno {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8%;
+}
+main div.obvi div.parag div.meno > div.slot1 {
+  width: 11%;
+}
+main div.obvi div.parag div.meno > div.slot1 > img {
+  margin-bottom: 10%;
+  cursor: pointer;
+}
+main div.obvi div.parag div.meno > div.slot2 {
+  width: 24%;
+}
+main div.obvi div.parag div.meno > div.slot2 > img {
+  margin-bottom: 10%;
+  cursor: pointer;
+}
+main div.obvi div.parag div.meno > div.slot3 {
+  width: 13%;
+}
+main div.obvi div.parag div.meno > div.slot3 > img {
+  margin-bottom: 10%;
+  cursor: pointer;
+}
+main div.obvi div.parag div.meno > div.slot4 {
+  width: 27%;
+}
+main div.obvi div.parag div.meno > div.slot4 > img {
+  margin-bottom: 10%;
+  cursor: pointer;
+}
+main div.obvi div.parag div.meno .border-g {
+  border-bottom: solid 3px var(--green);
 }/*# sourceMappingURL=stayl.css.map */
