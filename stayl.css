@@ -455,4 +455,92 @@ main div.lanech > div.body > div.Segment > p {
 main div.lanech > div.body > div.Segment .blcak-bold {
   color: black;
   font-weight: bold;
+}
+main > div.DTC {
+  width: 100%;
+  margin-top: 5%;
+  margin: 0 auto;
+  margin-top: 5%;
+}
+main > div.DTC > div.parag {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+main > div.DTC > div.parag > h1 {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+main > div.DTC > div.parag > h1 > span {
+  color: var(--green);
+  font-family: var(--english);
+}
+main > div.DTC div.cardContiner {
+  display: flex;
+}
+main > div.DTC div.cardContiner > img.right-card {
+  margin-left: 5%;
+  height: 70%;
+}
+main > div.DTC div.cardContiner > div.card {
+  width: 25%;
+  border: solid 2px rgb(56, 56, 56);
+  height: 30%;
+  border-radius: 15px;
+  margin-left: 4%;
+}
+main > div.DTC div.cardContiner > div.card > div.top {
+  display: flex;
+  justify-content: space-between;
+}
+main > div.DTC div.cardContiner > div.card > div.top > img {
+  width: 8%;
+  height: 32px;
+  margin-top: 10%;
+  margin-right: 6%;
+}
+main > div.DTC div.cardContiner > div.card > div.top > div.left {
+  width: 80%;
+  display: flex;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+main > div.DTC div.cardContiner > div.card > div.top > div.left div.parag {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+  margin-top: 6%;
+}
+main > div.DTC div.cardContiner > div.card > div.top > div.left div.parag > h5 {
+  color: black;
+  font-size: var(--sm);
+}
+main > div.DTC div.cardContiner > div.card > div.top > div.left div.parag > h6 {
+  color: var(--pcolor);
+  font-size: var(--sm);
+}
+main > div.DTC div.cardContiner > div.card div.down > p {
+  color: var(--pcolor);
+  font-size: 14px;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+main > div.DTC div.cardContiner > div.card div.down > p > span {
+  font-weight: 700;
+}
+main > div.DTC div.btn {
+  width: 100%;
+}
+main > div.DTC div.btn > button.risk {
+  border: solid 2px black;
+  border-radius: 15px;
+  width: 15%;
+  margin: 0 auto;
+  background-color: #ff6d2c;
+  box-sizing: border-box;
+  box-shadow: 2.5px 2.5px 0px black;
+  color: white;
+  font-size: 15px;
+  margin-top: 10%;
+  margin-bottom: 20%;
 }/*# sourceMappingURL=stayl.css.map */

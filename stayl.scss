@@ -443,7 +443,7 @@ main {
       > div.Segment {
         display: flex;
         flex-direction: column;
-        >span{
+        > span {
           width: 80%;
           font-size: 25px;
           margin-top: 4%;
@@ -451,16 +451,110 @@ main {
           color: var(--pcolor);
           cursor: pointer;
         }
-        >p{
+        > p {
           width: 80%;
-               margin-left: 5%;
-               font-weight: 600;
+          margin-left: 5%;
+          font-weight: 600;
         }
-        .blcak-bold{
-        color: black;
-        font-weight: bold;
+        .blcak-bold {
+          color: black;
+          font-weight: bold;
         }
       }
     }
+  }
+  > div.DTC {
+    width: 100%;
+    margin-top: 5%;
+    margin: 0 auto;
+
+    margin-top: 5%;
+    > div.parag {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+
+      > h1 {
+        margin-top: 5%;
+        margin-bottom: 5%;
+        > span {
+          color: var(--green);
+          font-family: var(--english);
+        }
+      }
+    }
+    div.cardContiner {
+      display: flex;
+
+      > img.right-card {
+        margin-left: 5%;
+        height: 70%;
+      }
+      > div.card {
+        width: 25%;
+        border: solid 2px rgb(56, 56, 56);
+        height: 30%;
+        border-radius: 15px;
+        margin-left: 4%;
+        > div.top {
+          display: flex;
+          justify-content: space-between;
+          > img {
+            width: 8%;
+            height: 32px;
+            margin-top: 10%;
+            margin-right: 6%;
+          }
+          > div.left {
+            width: 80%;
+            display: flex;
+            margin-left: 5%;
+            margin-top: 5%;
+            div.parag {
+              display: flex;
+              flex-direction: column;
+              margin-left: 5%;
+              margin-top: 6%;
+              > h5 {
+                color: black;
+                font-size: var(--sm);
+              }
+              > h6 {
+                color: var(--pcolor);
+                font-size: var(--sm);
+              }
+            }
+          }
+        }
+        div.down {
+          > p {
+            color: var(--pcolor);
+            font-size: 14px;
+            margin-left: 5%;
+            margin-top: 5%;
+            > span {
+              font-weight: 700;
+            }
+          }
+        }
+      }
+    }
+    div.btn{
+      width: 100%;
+    > button.risk {
+      border: solid 2px black;
+      border-radius: 15px;
+      width: 15%;
+      margin: 0 auto;
+      background-color: #ff6d2c;
+      box-sizing: border-box;
+      box-shadow: 2.5px 2.5px 0px black;
+      color: white;
+      font-size: 15px;
+      margin-top: 10%;
+      margin-bottom: 20%;
+    }
+    }
+
   }
 }
