@@ -9,6 +9,7 @@
   --xxsm: xX-small;
   --full: 100%;
   --50px: 50px;
+  --60px: 60px;
 }
 
 @font-face {
@@ -696,4 +697,29 @@ main div.oreng > div.parag h5.gray {
   margin-top: 5%;
   color: rgb(221, 221, 221) !important;
   font-size: var(--sm);
+}
+main div.insights {
+  width: var(--full);
+  background-color: #f3fafa;
+}
+main div.insights div.parag {
+  width: var(--full);
+  display: flex;
+  justify-content: center;
+}
+main div.insights div.parag > h1 {
+  font-size: var(--60px);
+  font-weight: bold;
+  margin-top: 5%;
+}
+main div.insights div.parag > h1 > span {
+  color: var(--green);
+  font-family: var(--english);
+}
+main div.insights div.cardCantiner {
+  width: 90%;
+  display: flex;
+}
+main div.insights div.cardCantiner > div.card {
+  width: 28%;
 }/*# sourceMappingURL=stayl.css.map */
